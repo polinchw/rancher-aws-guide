@@ -15,3 +15,9 @@ https://github.com/polinchw/rancher-aws-cloudformation
 Once you have your AWC VPC running you'll want to install the Rancher server on it along with SSL so it can be accessed securly over the internet.  This repo will help you install the Rancher server on the RancherAdmin EC2 instance that was created with the cloud formation script in the previous step
 
 https://github.com/polinchw/rancher-ssl
+
+## Docker Release Guide
+After your Rancher server is running you'll probably want to release your company's code using docker.  This guide shows how to 
+build, tag, and release docker containers.  Even though Docker Machine is mentioned in this guide don't worry because Rancher basically is a fancy Docker Machine infrastructure.  So instead of creating a Docker Swarm with the repo's bash script you'd use Rancher to create a swarm.  
+
+https://github.com/polinchw/docker-release-guide
