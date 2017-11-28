@@ -16,6 +16,16 @@ Once you have your AWC VPC running you'll want to install the Rancher server on 
 
 https://github.com/polinchw/rancher-ssl
 
+## Create a Rancher Environment
+
+Create a Rancher enviroment in the Rancher UI.
+
+## Set your Rancher Host Registration URL
+
+Set the your Rancher Host URL to the private IP of the Rancher server.  
+
+Example http://10.0.1.220:8080
+
 ## Docker Release Guide
 After your Rancher server is running you'll probably want to release your company's code using docker.  This guide shows how to 
 build, tag, and release docker containers.  Even though Docker Machine is mentioned in this guide don't worry because Rancher basically is a fancy Docker Machine infrastructure.  So instead of creating a Docker Swarm with the repo's bash script you'd use Rancher to create a swarm.  
