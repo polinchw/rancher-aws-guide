@@ -28,7 +28,7 @@ Set the your Rancher Host URL to the private IP of the Rancher server.
 
 ![alt text](https://raw.githubusercontent.com/polinchw/rancher-aws-guide/master/images/rancher-hostreg.JPG)
 
-Example http://10.0.1.220:8080
+Example http://10.0.1.106:8080
 
 ## Docker Release Guide
 After your Rancher server is running you'll probably want to release your company's code using docker.  This guide shows how to 
