@@ -12,7 +12,7 @@ you can set up an AWS VPC for your Rancher infrastucture to run on using AWS Clo
 https://github.com/polinchw/rancher-aws-cloudformation
 
 ## Run a Rancher Server
-Once you have your AWC VPC running you'll want to install the Rancher server on it along with SSL so it can be accessed securly over the internet.  This repo will help you install the Rancher server on the RancherAdmin EC2 instance that was created with the cloud formation script in the previous step
+Once you have your AWC VPC running you'll want to install the Rancher server on it along with SSL so it can be accessed securly over the internet.  This repo will help you install the Rancher server on the RancherAdmin EC2 instance that was created with the cloud formation script in the previous step.
 
 https://github.com/polinchw/rancher-ssl
 
