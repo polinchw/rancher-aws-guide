@@ -4,6 +4,9 @@ This repo will serve as a guide for setting up a usable Rancher infrastructure o
 ## Contents
 - AWS Cloud Formation
 - Run a Rancher Server
+- Create a Rancher Environment
+- Set your Rancher Host Registration URL
+- Docker Release Guide
 
 ## AWS Cloud Formation
 Rancher can control many different servers running docker within your business.  If you're running your business on AWS
