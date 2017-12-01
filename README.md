@@ -20,9 +20,13 @@ https://github.com/polinchw/rancher-ssl
 
 Create a Rancher enviroment in the Rancher UI.
 
+![alt text](https://raw.githubusercontent.com/polinchw/rancher-ssl/master/images/rancher-startup.JPG)
+
 ## Set your Rancher Host Registration URL
 
 Set the your Rancher Host URL to the private IP of the Rancher server.  
+
+![alt text](https://raw.githubusercontent.com/polinchw/rancher-ssl/master/images/rancher-startup.JPG)
 
 Example http://10.0.1.220:8080
 
