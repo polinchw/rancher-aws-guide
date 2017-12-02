@@ -2,12 +2,19 @@
 This repo will serve as a guide for setting up a usable Rancher infrastructure on AWS.
 
 ## Contents
+- Rancher Overview
 - AWS Cloud Formation
 - Rancher Server Access
 - Rancher Access Control
 - Create a Rancher Environment
 - Set your Rancher Host Registration URL
 - Docker Release Guide
+
+## Rancher Overview
+Rancher is a Docker orchestration manager.  You can use it to deploy Docker containers among different servers.
+To learn more about Rancher visit their web site.
+
+https://rancher.com/
 
 ## AWS Cloud Formation
 Rancher can control many different servers running docker within your business.  If you're running your business on AWS
