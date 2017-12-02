@@ -24,7 +24,7 @@ https://github.com/polinchw/rancher-aws-cloudformation  (return to this page aft
 
 ## Rancher Server Access
 
-Point your browser to the public IP of the Rancher server and the Rancher UI will come up.
+After the AWS Cloud Formation step is complete point your browser to the public IP of the Rancher server and the Rancher UI will come up.
 
 https://public-ip
 
