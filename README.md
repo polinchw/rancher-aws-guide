@@ -3,7 +3,8 @@ This repo will serve as a guide for setting up a usable Rancher infrastructure o
 
 ## Contents
 - AWS Cloud Formation
-- Run a Rancher Server
+- Rancher Server Access
+- Rancher Access Control
 - Create a Rancher Environment
 - Set your Rancher Host Registration URL
 - Docker Release Guide
@@ -14,10 +15,19 @@ you can set up an AWS VPC for your Rancher infrastucture to run on using AWS Clo
 
 https://github.com/polinchw/rancher-aws-cloudformation  (return to this page after this step)
 
-## Run a Rancher Server
-Once you have your AWC VPC running you'll want to install the Rancher server on it along with SSL so it can be accessed securly over the internet.  This repo will help you install the Rancher server on the RancherAdmin EC2 instance that was created with the cloud formation script in the previous step.
+## Rancher Server Access
 
-https://github.com/polinchw/rancher-ssl   (return to this page after this step)
+Point your browser to the public IP of the Rancher server and the Rancher UI will come up.
+
+https://public-ip
+
+![alt text](https://raw.githubusercontent.com/polinchw/rancher-ssl/master/images/rancher-startup.JPG)
+
+## Rancher Access Control
+
+Once your Rancher Server is up and running you should set up a means of authentication so that only you can access the service.
+
+![alt text](https://raw.githubusercontent.com/polinchw/rancher-ssl/master/images/rancher-admin.JPG)
 
 ## Create a Rancher Environment
 
