@@ -49,3 +49,7 @@ Set the your Rancher Host URL to the private IP of the Rancher server.
 ![alt text](https://raw.githubusercontent.com/polinchw/rancher-aws-guide/master/images/rancher-hostreg.JPG)
 
 Example http://10.0.1.106:8080
+
+## Ready for use
+
+At this point Rancher is ready to be used.  You'll want to create some hosts then deploy some containers!
